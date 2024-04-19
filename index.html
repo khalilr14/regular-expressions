@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx</title>
+    <link rel="stylesheet" href="style/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5">
+    <section class="flex flex-col items-center w-full h-screen shadow-2xl rounded-md">
+        <h1 class="mt-5 text-center font-serif text-3xl"> Regular Exp </h1>
+        <div class="grid grid-cols-2 gap-5 mt-5">
+            <div class="grid grid-rows-3 gap-10">
+                <div class="flex flex-col rounded shadow-md bg-slate-300 p-10">
+                    <div class="flex flex-col">
+                        <p>Cek Email Anda</p>
+                    <input type="text" id="email" name="email" placeholder="Email . ." autocomplete="off" class="mt-4 w-full p-2 rounded-lg">
+                </div>
+                <p class="font-light"></p>
+                </div>
+                <div class="flex flex-col rounded shadow-md bg-slate-300 p-10">
+                    <div class="flex flex-col">
+                        <p>Cek HP Anda</p>
+                    <input type="number" id="handphone" name="handphone" placeholder="handphone . ." autocomplete="off" class="mt-4 w-full p-2 rounded-lg">
+                </div>
+                <p class="font-light"></p>
+                </div>
+                <div class="flex flex-col rounded shadow-md bg-slate-300 p-10">
+                    <div class="flex flex-col">
+                        <p>Cek Post Anda</p>
+                    <input type="number" id="post" name="post" placeholder="Post . . ." autocomplete="off" class="mt-4 w-full p-2 rounded-lg">
+                </div>
+                <p class="font-light"></p>
+                </div>
+            </div>
+
+            <div class="grid grid-rows-2 gap-5">
+                <div class="flex flex-col rounded shadow-md bg-slate-300 p-10">
+                    <div class="flex flex-col">
+                        <p>Cek Id Anda</p>
+                    <input type="text" id="id" name="id" placeholder="ID . ." autocomplete="off" class="mt-4 w-full p-2 rounded-lg">
+                </div>
+                <p class="font-light"></p>
+                </div>
+                <div class="flex flex-col rounded shadow-md bg-slate-300 p-10">
+                    <div class="flex flex-col">
+                        <p>Cek Password Anda</p>
+                    <input type="text" id="pass" name="Pass" placeholder="Pass . ." autocomplete="off" class="mt-4 w-full p-2 rounded-lg">
+                </div>
+                <p class="font-light"></p>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
